@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { IoIosMenu } from "react-icons/io";
-const Nav = () => {
+import gsap from "gsap";
+const Nav = ({ phoneMenuNav }) => {
+  const [showMenu, setshowMenu] = useState(false);
+
   return (
     <div className="h-[10vh] w-full flex justify-between items-center p-6 bg-red-400">
       <div>
@@ -13,7 +16,7 @@ const Nav = () => {
               {elem}
             </h5>
           ) : (
-            <a href="" download>
+            <a key={i} href="" download>
               {elem}
             </a>
           );
@@ -21,7 +24,19 @@ const Nav = () => {
       </div>
       <div className="nav-btn">
         <button className="text-sm hidden lg:flex">Contact Me</button>
-        <IoIosMenu className="initial  lg:hidden text-2xl" />
+        <IoIosMenu
+          onClick={() => {
+            var timeline = gsap.timeline();
+            timeline
+            .to(phoneMenuNav.current, {
+              display: "initial",
+              height: "100vh",
+              duration: "1",
+            })
+
+          }}
+          className="initial  lg:hidden text-2xl"
+        />
       </div>
     </div>
   );

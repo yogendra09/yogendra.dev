@@ -11,7 +11,7 @@ const Footer = () => {
           <div className='flex flex-col items-center mt-[2vh]'>
           {["Resume", "Skills", "Projects", "About"].map((elem, i) => {
           return i==0 ? (
-            <a href="" download className='text-xl'>
+            <a key={i} href="" download className='text-xl'>
               {elem}
             </a>
           ) : (
