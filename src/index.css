@@ -11,3 +11,11 @@
     width: 5px;
     background-color: #dadada;
 }
+
+
+.cont::-webkit-scrollbar{
+       display:none;
+}
+
+
+

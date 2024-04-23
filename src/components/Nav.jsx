@@ -5,35 +5,33 @@ const Nav = ({ phoneMenuNav }) => {
   const [showMenu, setshowMenu] = useState(false);
 
   return (
-    <div className="h-[10vh] w-full flex justify-between items-center p-6 bg-red-400">
+    <div className="fixed z-50 h-[10vh] w-full flex justify-between items-center p-6 backdrop-blur-sm ">
       <div>
         <h3 className="text-xl">Yogendra.dev</h3>
       </div>
       <div className="nav-p2 hidden items-center gap-10 lg:flex">
         {["Resume", "Skills", "Projects", "About"].map((elem, i) => {
-          return i == !0 ? (
+          return i === 0 ? (
+            <a key={i} href="./src/assets/react.svg" download>
+              {elem}
+            </a>
+          ) : (
             <h5 key={i} className="text-sm">
               {elem}
             </h5>
-          ) : (
-            <a key={i} href="" download>
-              {elem}
-            </a>
           );
         })}
       </div>
       <div className="nav-btn">
-        <button className="text-sm hidden lg:flex">Contact Me</button>
+        <button className="text-sm hidden lg:flex bg-gray-300 rounded-lg px-[8.5px] py-1 text-white">Contact Me</button>
         <IoIosMenu
           onClick={() => {
             var timeline = gsap.timeline();
-            timeline
-            .to(phoneMenuNav.current, {
+            timeline.to(phoneMenuNav.current, {
               display: "initial",
               height: "100vh",
               duration: "1",
-            })
-
+            });
           }}
           className="initial  lg:hidden text-2xl"
         />
