@@ -85,10 +85,10 @@ const HomePage = () => {
            </p>
         </div>
 
-        <div className="">
-        <div className="px-6 py-6 mt-8 rounded-3xl border-[1px] border-[#f5f5f5]">
+        <div className="flex items-center">
+        <div className="px-6 py-6 mt-8 rounded-3xl border-[1px] border-[#f5f5f5] w-[65%]">
            <h1 className="text-lg opacity-80">Styles</h1>
-           <p className="mt-2 pr-12">
+           <p className="mt-2">
             TypeScript / Rect / Vue / Vuex / Redux ToolKit / NextJs / Nuxt / Jest / GraphQl / React Native / Puppeter / Enzyme 
            </p>
         </div>
