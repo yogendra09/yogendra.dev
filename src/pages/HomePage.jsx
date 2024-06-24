@@ -8,62 +8,13 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
+import Hero from "../components/Hero";
 const HomePage = () => {
   return (
     <>
-      <Nav />
       <div className="bg-[#121212] text-[#f5f5f5] min-h-screen px-[16px] pb-10">
-        <div className="h-[30vh]  flex flex-col justify-center">
-          <div className="flex justify-start">
-            <h1 className="text-5xl font-extrabold fira">Full-stack</h1>
-          </div>
-          <div className="flex justify-end">
-            <h1 className="text-5xl font-extrabold fira mt-2 ">Developer</h1>
-          </div>
-        </div>
-
-        <div className="text-start">
-          <p className="opensans w-[75%]">
-            My Goal is to write maintainable, clean and understandable code to
-            process development was enjoyable.
-          </p>
-        </div>
-
-        <div className="flex items-center gap-3 mt-8">
-          <Button>Projects</Button>
-          <div className=" bg-[#f5f5f5] text-[#121212] rounded-full px-3 py-3">
-            <HiArrowLongRight className="text-3xl font-thin" />
-          </div>
-        </div>
-
-        <div className="mt-12">
-          <div className="flex gap-3">
-            <div className="flex items-center gap-3 border-[1px] border-[#f5f5f5] rounded-full px-6 py-2">
-              <FaGithub />
-              <h1 className="text-sm">GitHub</h1>
-            </div>
-            <div className="flex items-center gap-3 border-[1px] border-[#f5f5f5] rounded-full px-6 py-2">
-              <FaLinkedinIn />
-              <h1 className="text-sm">Linkdin</h1>
-            </div>
-          </div>
-          <div className="flex gap-3 mt-4">
-            <div className="flex items-center gap-3 border-[1px] border-[#f5f5f5] rounded-full px-6 py-2">
-              <FaFacebookF />
-              <h1 className="text-sm">Facebook</h1>
-            </div>
-            <div className="flex items-center gap-3 border-[1px] border-[#f5f5f5] rounded-full px-6 py-2">
-              <FaInstagram />
-              <h1 className="text-sm">Instagram</h1>
-            </div>
-          </div>
-          <div className="flex gap-3 mt-4">
-            <div className="flex items-center gap-3 border-[1px] border-[#f5f5f5] rounded-full px-6 py-2">
-              <FaTelegramPlane />
-              <h1 className="text-sm">Telegram</h1>
-            </div>
-          </div>
-        </div>
+      <Nav />
+       <Hero />
 
         <div className="mt-12">
           <div className="">
