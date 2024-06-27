@@ -5,8 +5,9 @@ const Loader = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+
     window.addEventListener("load", handleLoad);
-    return () => window.removeEventListener("load", handleLoad);
+    // return () => window.removeEventListener("load", handleLoad);
   }, []);
 
   const handleLoad = () => {
