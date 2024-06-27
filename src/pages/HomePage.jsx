@@ -12,10 +12,11 @@ import Hero from "../components/Hero";
 import Loader from "../components/Loader";
 const HomePage = () => {
   return (
-    <><Loader/>
+    <>
+      <Loader />
       <div className="bg-[#121212] text-[#f5f5f5] min-h-screen px-[16px] pb-10">
-      <Nav />
-       <Hero />
+        <Nav />
+        <Hero />
 
         <div className="mt-12">
           <div className="">
@@ -41,8 +42,8 @@ const HomePage = () => {
           <div className="px-6 py-6 bg-[#f5f5f5] text-[#121212] mt-24 rounded-3xl">
             <h1 className="text-lg opacity-80">Front-end</h1>
             <p className="mt-2 pr-12">
-              TypeScript / Rect  / Vuex / Redux ToolKit / NextJs / Nuxt /
-              Jest / GraphQl / React Native / Puppeter / Enzyme
+              TypeScript / Rect / Vuex / Redux ToolKit / NextJs / Nuxt / Jest /
+              GraphQl / React Native / Puppeter / Enzyme
             </p>
           </div>
 
@@ -74,7 +75,7 @@ const HomePage = () => {
 
           <div className="flex items-center gap-6">
             <p className="w-[30%] text-sm">
-                Some of my Favriute technologies, topics or tools i worked with
+              Some of my Favriute technologies, topics or tools i worked with
             </p>
             <div className="px-6 py-6 mt-8 rounded-3xl border-[1px] border-[#f5f5f5]/40 w-[65%]">
               <h1 className="text-lg opacity-80">Styles</h1>

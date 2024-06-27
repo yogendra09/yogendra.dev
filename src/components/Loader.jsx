@@ -19,7 +19,7 @@ const Loader = () => {
   };
 
   if (isLoading) {
-    return <div className="loader absolute z-10 h-[100vh]  w-full bg-[#121212] flex items-center justify-center overflow-hidden">Loading...</div>;
+    return <div className="loader absolute z-10 h-[10vh]  w-full bg-[#121212] flex items-center justify-center overflow-hidden">Loading...</div>;
   }
 
 };
