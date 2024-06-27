@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
+import { BsArrowUpRight } from "react-icons/bs";
 
 const ProjectsPage = () => {
   return (
@@ -25,8 +26,8 @@ const ProjectsPage = () => {
         </div>
 
         <div className='flex gap-2 items-center'>
-          <FaGithub className='text-2xl' />
-         <span className='border-[1px] border-[#f5f5f5]/60 px-4 py-1 rounded-2xl'>Live</span>
+          <FaGithub className='text-3xl' />
+         <span className='border-[1px] border-[#f5f5f5]/60 px-4 py-1 rounded-2xl flex gap-2 items-center'>Live <BsArrowUpRight className='text-sm mt-1'/> </span>
         </div>
       </div>
 

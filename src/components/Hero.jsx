@@ -7,6 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="">
@@ -37,22 +38,22 @@ const Hero = () => {
       </div>
 
       <div className="lg:hidden flex items-center gap-3 mt-8">
-        <Button>Projects</Button>
-        <div className=" bg-[#f5f5f5] text-[#121212] rounded-full px-3 py-3">
+       <Link to="/projects"> <Button>Projects</Button></Link>
+        <Link to="/projects" className=" bg-[#f5f5f5] text-[#121212] rounded-full px-3 py-3">
           <HiArrowLongRight className="text-3xl font-thin" />
-        </div>
+        </Link>
       </div>
 
       <div className="mt-12 lg:flex lg:items-end lg:justify-center gap-5 lg:relative lg:top-[-12vh]">
         <div className="flex gap-3 ">
-          <div className="flex items-center gap-3 border-[1px] border-[#f5f5f5] rounded-full px-6 py-2">
+          <Link to="https://github.com/yogendra09" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 border-[1px] border-[#f5f5f5] rounded-full px-6 py-2">
             <FaGithub />
             <h1 className="text-sm">GitHub</h1>
-          </div>
-          <div className="flex items-center gap-3 border-[1px] border-[#f5f5f5] rounded-full px-6 py-2">
+          </Link>
+          <Link to="https://www.linkedin.com/in/yogendra-singh-989baa228/" target="_blank" rel="noopener noreferrer"  className="flex items-center gap-3 border-[1px] border-[#f5f5f5] rounded-full px-6 py-2">
             <FaLinkedinIn />
             <h1 className="text-sm">Linkdin</h1>
-          </div>
+          </Link>
         </div>
         <div className="flex gap-3 mt-4 ">
           <div className="flex items-center gap-3 border-[1px] border-[#f5f5f5] rounded-full px-6 py-2">

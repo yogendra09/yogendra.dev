@@ -9,9 +9,10 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
 import Hero from "../components/Hero";
+import Loader from "../components/Loader";
 const HomePage = () => {
   return (
-    <>
+    <><Loader/>
       <div className="bg-[#121212] text-[#f5f5f5] min-h-screen px-[16px] pb-10">
       <Nav />
        <Hero />
@@ -40,7 +41,7 @@ const HomePage = () => {
           <div className="px-6 py-6 bg-[#f5f5f5] text-[#121212] mt-24 rounded-3xl">
             <h1 className="text-lg opacity-80">Front-end</h1>
             <p className="mt-2 pr-12">
-              TypeScript / Rect / Vue / Vuex / Redux ToolKit / NextJs / Nuxt /
+              TypeScript / Rect  / Vuex / Redux ToolKit / NextJs / Nuxt /
               Jest / GraphQl / React Native / Puppeter / Enzyme
             </p>
           </div>
