@@ -4,15 +4,15 @@
 
 @font-face {
   font-family: fira;
-  src: url("../src/assets/Fonts/firacode/FiraCode-Regular.ttf");
+  src: url("../src/assets/Fonts/firacode/FiraCode-Regular.woff2");
 }
 @font-face {
   font-family: firaBold;
-  src: url("../src/assets/Fonts/firacode/FiraCode-Bold.ttf");
+  src: url("../src/assets/Fonts/firacode/FiraCode-Bold.woff2");
 }
 @font-face {
   font-family: opensans;
-  src: url("../src/assets/Fonts/opensans/OpenSans-Regular.ttf");
+  src: url("../src/assets/Fonts/opensans/OpenSans-Regular.woff2");
 }
 
 
