@@ -15,6 +15,12 @@
   src: url("../src/assets/Fonts/opensans/OpenSans-Regular.woff2");
 }
 
+html,body{
+  height: 100%;
+  width: 100%;
+  background: #121212;
+  color:white;
+}
 
 
 .fira{

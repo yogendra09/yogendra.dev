@@ -10,7 +10,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 const Hero = () => {
   return (
-    <div className="">
+    <div className="py-28">
       <div className="h-[30vh] lg:h-[50vh]  flex flex-col justify-center">
         <div className="flex justify-start lg:gap-[8vw]">
           <h1 className="text-5xl font-extrabold fira lg:text-[9.5vw]">
