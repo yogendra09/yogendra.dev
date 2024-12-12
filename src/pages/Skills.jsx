@@ -37,7 +37,7 @@ const Skills = () => {
       <div className="px-6 py-6 mt-8 rounded-3xl border-[1px] border-[#f5f5f5]/40 w-[65%]">
         <h1 className="text-lg opacity-80">Styles</h1>
         <p className="mt-2 text-sm">
-          TypeScript / Redux ToolKit / NextJs  /
+          CSS / Tailwind CSS / Bootstrap  /
           
         </p>
       </div>
