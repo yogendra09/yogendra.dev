@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom'
 
 const Card = ({project}) => {
   return (
-    <div className='group relative overflow-hidden rounded-2xl bg-[#1a1a1a] hover:bg-[#222222] transition-all duration-300 p-4 md:p-6 lg:p-8'>
+    <div className='border-[0.5px]  border-[#f5f5f5]/40 group relative overflow-hidden rounded-2xl hover:bg-[#1a1a1a]  transition-all duration-300 p-4 md:p-6 lg:p-8'>
       {/* Image Container */}
-      <div className='aspect-video overflow-hidden rounded-xl'>
+      <div className='aspect-video overflow-hidden rounded-xl border-[0.5px]  border-[#f5f5f5]/40'>
         <img 
-          src="https://images.unsplash.com/photo-1619410283995-43d9134e7656?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+          src={project.image}
           alt={project.tittle}
           className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-105'
         />
@@ -26,8 +26,8 @@ const Card = ({project}) => {
           {project.skills.map((skill, index) => (
             <span 
               key={index} 
-              className='border border-[#f5f5f5]/20 bg-[#2a2a2a] px-3 py-1.5 text-sm 
-                       rounded-full font-medium tracking-wide hover:border-[#f5f5f5]/40 
+              className='border border-[#f5f5f5]/30  px-3 py-1.5 text-sm 
+                       rounded-full font-thin tracking-wide hover:border-[#f5f5f5]/40 
                        transition-colors duration-300'
             >
               {skill}

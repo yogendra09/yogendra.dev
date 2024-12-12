@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const Loader = () => {
   const [isLoading, setIsLoading] = useState(true);
