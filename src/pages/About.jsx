@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const About = () => {
@@ -28,7 +29,7 @@ const About = () => {
 
           <div className="mt-8 flex gap-4">
             <button className="px-6 py-2 bg-[#f5f5f5] text-[#121212] rounded-lg hover:opacity-90 transition-opacity">
-              Resume
+            <Link to='https://www.canva.com/design/DAGTFiYQhO0/uhp--4W5nA3BLuyG7rb90Q/view?utm_content=DAGTFiYQhO0&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel' target="_blank">  Resume</Link>
             </button>
             <button onClick={handleConnect} type="button" className="px-6 py-2 border border-[#f5f5f5]/20 rounded-lg hover:border-[#f5f5f5]/40 transition-colors">
               Contact
