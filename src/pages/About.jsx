@@ -1,6 +1,14 @@
 
 
 const About = () => {
+
+  const handleConnect = () => {
+    const phoneNumber = "917999356540";
+    const message = "Hello! I'd like to connect with you.";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
+
   return (
     <div className="about mt-12 md:py-20">
     <div className="max-w-4xl">
@@ -8,7 +16,7 @@ const About = () => {
         <div className="md:w-2/3">
           <h1 className="font-semibold text-2xl md:text-3xl">.../About me</h1>
           <p className="mt-6 text-lg leading-relaxed opacity-90">
-            Passionate MERN Stack Developer | Expert in modern web development with a flair for innovative website design. Proficient in React, Next.js, and adept at crafting seamless user experiences.
+            Passionate MERN Stack Developer | Expert in modern web development with a flair for innovative website design. Proficient in HTML, CSS, React, Nodejs, ExpressJs and adept at crafting seamless user experiences.
           </p>
           
           <div className="mt-8">
@@ -22,7 +30,7 @@ const About = () => {
             <button className="px-6 py-2 bg-[#f5f5f5] text-[#121212] rounded-lg hover:opacity-90 transition-opacity">
               Resume
             </button>
-            <button className="px-6 py-2 border border-[#f5f5f5]/20 rounded-lg hover:border-[#f5f5f5]/40 transition-colors">
+            <button onClick={handleConnect} type="button" className="px-6 py-2 border border-[#f5f5f5]/20 rounded-lg hover:border-[#f5f5f5]/40 transition-colors">
               Contact
             </button>
           </div>

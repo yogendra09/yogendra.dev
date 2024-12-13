@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsArrowUpRight } from 'react-icons/bs'
 import { FaGithub } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Skills = () => {
   return (
@@ -13,14 +14,14 @@ const Skills = () => {
           Html / CSS / Reactjs /  Nextjs /  Redux ToolKit / GSAP
         </p>
       </div>
-      <div className="flex items-center gap-4 group cursor-pointer">
+      <Link to='https://github.com/yogendra09' target='_blank' className="flex items-center gap-4 group cursor-pointer">
         <div className="border-[1px] border-[#f5f5f5] p-4 rounded-full group-hover:bg-[#f5f5f5] group-hover:text-[#121212] transition-colors">
           <FaGithub className="text-xl" />
         </div>
         <div className="text-[#121212] bg-[#f5f5f5] p-4 rounded-full group-hover:scale-110 transition-transform">
           <BsArrowUpRight className="text-xl" />
         </div>
-      </div>
+      </Link>
     </div>
 
     <div className="px-6 py-6 text-[#f5f5f5] bg-[#121212] border-[1px] border-[#f5f5f5]/40 mt-12 rounded-3xl w-[90%]">

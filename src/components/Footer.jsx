@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaGithub, FaInstagram, FaLinkedinIn, FaTelegramPlane } from 'react-icons/fa'
 import { HiArrowLongRight } from 'react-icons/hi2'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 
@@ -25,18 +26,18 @@ const Footer = () => {
       <div>
         <h3 className="text-xl mb-6">Social Links</h3>
         <div className="flex gap-4">
-          <a href="#" className="p-3 border border-[#f5f5f5]/20 rounded-full hover:bg-[#f5f5f5] hover:text-[#121212] transition-colors">
+          <Link to="https://github.com/yogendra09" target='_blank' className="p-3 border border-[#f5f5f5]/20 rounded-full hover:bg-[#f5f5f5] hover:text-[#121212] transition-colors">
             <FaGithub />
-          </a>
-          <a href="#" className="p-3 border border-[#f5f5f5]/20 rounded-full hover:bg-[#f5f5f5] hover:text-[#121212] transition-colors">
+          </Link>
+          <Link to="https://www.linkedin.com/in/yogendrasingh09/" target='_blank' className="p-3 border border-[#f5f5f5]/20 rounded-full hover:bg-[#f5f5f5] hover:text-[#121212] transition-colors">
             <FaLinkedinIn />
-          </a>
-          <a href="#" className="p-3 border border-[#f5f5f5]/20 rounded-full hover:bg-[#f5f5f5] hover:text-[#121212] transition-colors">
+          </Link>
+          <Link to="https://github.com/yogendra09" className="p-3 border border-[#f5f5f5]/20 rounded-full hover:bg-[#f5f5f5] hover:text-[#121212] transition-colors">
             <FaInstagram />
-          </a>
-          <a href="#" className="p-3 border border-[#f5f5f5]/20 rounded-full hover:bg-[#f5f5f5] hover:text-[#121212] transition-colors">
+          </Link>
+          <Link to="https://github.com/yogendra09" className="p-3 border border-[#f5f5f5]/20 rounded-full hover:bg-[#f5f5f5] hover:text-[#121212] transition-colors">
             <FaTelegramPlane />
-          </a>
+          </Link>
         </div>
       </div>
 

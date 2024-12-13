@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../components/Button";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { FaGithub } from "react-icons/fa";
@@ -9,6 +9,16 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 const Hero = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+      setIsMenuOpen(false);
+    }
+  };
+
   return (
     <div className="py-28">
       <div className="h-[30vh] lg:h-[50vh]  flex flex-col justify-center">
@@ -16,7 +26,7 @@ const Hero = () => {
           <h1 className="text-5xl font-extrabold fira lg:text-[9.5vw]">
             Full-stack
           </h1>
-          <div className="hidden lg:flex items-center gap-3 mt-8">
+          <div onClick={()=>scrollToSection('projects')} className="hidden lg:flex items-center gap-3 mt-8">
             <Button>Projects</Button>
             <div className=" bg-[#f5f5f5] text-[#121212] rounded-full px-3 py-3">
               <HiArrowLongRight className="text-3xl font-thin" />
@@ -37,11 +47,11 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="lg:hidden flex items-center gap-3 mt-8">
-       <Link to="/projects"> <Button>Projects</Button></Link>
-        <Link to="/projects" className=" bg-[#f5f5f5] text-[#121212] rounded-full px-3 py-3">
+      <div onClick={()=>scrollToSection('projects')} className="lg:hidden flex items-center gap-3 mt-8">
+      <> <Button>Projects</Button></>
+        <div className=" bg-[#f5f5f5] text-[#121212] rounded-full px-3 py-3">
           <HiArrowLongRight className="text-3xl font-thin" />
-        </Link>
+        </div>
       </div>
 
       <div className="mt-12 lg:flex lg:items-end lg:justify-center gap-5 lg:relative lg:top-[-12vh]">
