@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import Button from "../components/Button";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { FaGithub } from "react-icons/fa";
@@ -6,16 +6,15 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
-import { BsArrowUpRight } from "react-icons/bs";
+
 import { Link } from "react-router-dom";
 const Hero = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      setIsMenuOpen(false);
+      
     }
   };
 

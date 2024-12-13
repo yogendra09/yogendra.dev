@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaGithub, FaInstagram, FaLinkedinIn, FaTelegramPlane } from 'react-icons/fa'
 import { HiArrowLongRight } from 'react-icons/hi2'
 import { Link } from 'react-router-dom';

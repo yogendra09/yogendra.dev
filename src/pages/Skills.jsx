@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { BsArrowUpRight } from 'react-icons/bs'
 import { FaGithub } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
