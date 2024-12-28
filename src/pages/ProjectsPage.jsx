@@ -5,6 +5,29 @@ import Card from '../components/cards/Card';
 const ProjectsPage = () => {
 
   const projects = [
+
+    {
+
+      image: "https://plus.unsplash.com/premium_photo-1720448972781-91b85867c099?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tittle: "E-Store",
+      skills: ["Reactjs", "javaScript", "NodeJs", "JWT Authentication", "ExpressJs", "Payment Gateway", "Nodemailer", "socket.io", "Mongodb", "Docker", "Github", "vercel", "Render",],
+      live: "https://e-store-sooty-phi.vercel.app/",
+      gitHub: "https://github.com/yogendra09/E-COMMERCE_APP.git"
+    },
+    {
+      image: "https://plus.unsplash.com/premium_photo-1720287601920-ee8c503af775?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tittle: "Hirer",
+      skills: ["Reactjs", "Nodejs", "Mongodb", "JWT Authentication", "Nodemailer", "ExpressJs", "GitHub", "Postman", "Vercel"],
+      live: "https://job-app-hirer.vercel.app/",
+      gitHub: "https://github.com/yogendra09/hirer"
+    },
+    {
+      image: "https://plus.unsplash.com/premium_photo-1720589103335-43589b70bd20?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tittle: "Learnify",
+      skills: ["Reactjs", "Nodejs", "Mongodb", "JWT Authentication", "ExpressJs", "Payment Gateway", "Postman", "GitHub", "Vercel"],
+      live: "https://leanrify.netlify.app/login",
+      gitHub: "https://github.com/yogendra09/Learnify"
+    },
     {
       
       image:"https://plus.unsplash.com/premium_photo-1720448972781-91b85867c099?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -12,21 +35,7 @@ const ProjectsPage = () => {
       skills:["ejs","javaScript" , "NodeJs" , "Mongodb" , "Github" ,"Passport Authentication","Render", ],
       live:"https://chat-application-elbc.onrender.com/login",
       gitHub:"https://github.com/yogendra09/chat_application"
-    },
-    {
-      image:"https://plus.unsplash.com/premium_photo-1720287601920-ee8c503af775?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      tittle:"Hirer",
-      skills:["Reactjs", "Nodejs" , "Mongodb" , "JWT Authentication" , "Nodemailer" ,"ExpressJs" , "GitHub" , "Postman" ,"Vercel"],
-      live:"https://job-app-hirer.vercel.app/",
-      gitHub:"https://github.com/yogendra09/hirer"
-    },  
-    {
-      image:"https://plus.unsplash.com/premium_photo-1720589103335-43589b70bd20?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      tittle:"Learnify",
-      skills:["Reactjs", "Nodejs" , "Mongodb" , "JWT Authentication" , "ExpressJs" , "Payment Gateway" ,"Postman" , "GitHub" ,"Vercel"],
-      live:"https://leanrify.netlify.app/login",
-      gitHub:"https://github.com/yogendra09/Learnify"
-    },
+    }
   ]
 
   return (
