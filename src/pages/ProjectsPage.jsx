@@ -8,7 +8,7 @@ const ProjectsPage = () => {
 
     {
 
-      image: "https://plus.unsplash.com/premium_photo-1720448972781-91b85867c099?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://plus.unsplash.com/premium_photo-1728224403721-a4affa8e30ff?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tittle: "E-Store",
       skills: ["Reactjs", "javaScript", "NodeJs", "JWT Authentication", "ExpressJs", "Payment Gateway", "Nodemailer", "socket.io", "Mongodb", "Docker", "Github", "vercel", "Render",],
       live: "https://e-store-sooty-phi.vercel.app/",
@@ -29,12 +29,12 @@ const ProjectsPage = () => {
       gitHub: "https://github.com/yogendra09/Learnify"
     },
     {
-      
-      image:"https://plus.unsplash.com/premium_photo-1720448972781-91b85867c099?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      tittle:"Chat App",
-      skills:["ejs","javaScript" , "NodeJs" , "Mongodb" , "Github" ,"Passport Authentication","Render", ],
-      live:"https://chat-application-elbc.onrender.com/login",
-      gitHub:"https://github.com/yogendra09/chat_application"
+
+      image: "https://plus.unsplash.com/premium_photo-1720448972781-91b85867c099?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tittle: "Chat App",
+      skills: ["ejs", "javaScript", "NodeJs", "Mongodb", "Github", "Passport Authentication", "Render",],
+      live: "https://chat-application-elbc.onrender.com/login",
+      gitHub: "https://github.com/yogendra09/chat_application"
     }
   ]
 
