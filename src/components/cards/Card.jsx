@@ -39,6 +39,7 @@ const Card = ({project}) => {
       {/* Links Container */}
       <div className='flex items-center gap-4'>
         <Link 
+          target='_blank'
           to={project.gitHub}
           className='p-3 border border-[#f5f5f5]/20 rounded-full 
                      hover:bg-[#f5f5f5] hover:text-[#121212] 
