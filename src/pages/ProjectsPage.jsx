@@ -10,7 +10,7 @@ const ProjectsPage = () => {
 
       image: "https://plus.unsplash.com/premium_photo-1728224403721-a4affa8e30ff?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tittle: "E-Store",
-      skills: ["Reactjs", "javaScript", "NodeJs", "JWT Authentication", "ExpressJs", "Payment Gateway", "Nodemailer", "socket.io", "Mongodb", "Docker", "Github", "vercel", "Render",],
+      skills: ["Reactjs", "javaScript", "NodeJs", "JWT Authentication", "Google Authentication" ,"ExpressJs", "Payment Gateway", "Nodemailer", "socket.io", "Mongodb", "Docker", "Github", "vercel", "Render",],
       live: "https://e-store-sooty-phi.vercel.app/",
       gitHub: "https://github.com/yogendra09/E-COMMERCE_APP.git"
     },
