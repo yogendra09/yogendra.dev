@@ -61,7 +61,7 @@ const Loader = () => {
       <div className="loader-content flex flex-col items-center">
         {/* Logo or Brand */}
         <div className="loader-text mb-6 text-4xl md:text-5xl lg:text-6xl font-bold text-[#f5f5f5]">
-          YS
+          Yogendra Singh
         </div>
         
         {/* Loading dots */}
