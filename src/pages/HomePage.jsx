@@ -7,6 +7,8 @@ import Skills from "./Skills";
 import About from "./About";
 import { useEffect, useRef } from "react";
 import Lenis from '@studio-freight/lenis';
+import SplashCursor from "../blocks/Animations/SplashCursor/SplashCursor";
+
 // ... existing imports ...
 
 const HomePage = () => {
@@ -34,6 +36,7 @@ const HomePage = () => {
   
   return (
     <>
+    <SplashCursor />
       <Loader />
       <div ref={lenisRef} className="bg-[#121212] text-[#f5f5f5] min-h-screen px-4 md:px-8 lg:px-16 pb-10 ">
         <Hero />
