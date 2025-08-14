@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import { useEffect, useState } from "react";
+import SplashCursor from "../blocks/Animations/SplashCursor/SplashCursor";
 
 const Loader = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -57,6 +58,8 @@ const Loader = () => {
   if (!isLoading) return null;
 
   return (
+    <div>
+      <SplashCursor />
     <div className="loader fixed inset-0 z-[9999] h-screen w-full bg-[#121212] flex items-center justify-center overflow-hidden">
       <div className="loader-content flex flex-col items-center">
         {/* Logo or Brand */}
@@ -76,6 +79,7 @@ const Loader = () => {
           Loading your experience
         </div>
       </div>
+    </div>
     </div>
   );
 };
