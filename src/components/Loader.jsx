@@ -59,8 +59,8 @@ const Loader = () => {
 
   return (
     <div>
-      <SplashCursor />
     <div className="loader fixed inset-0 z-[9999] h-screen w-full bg-[#121212] flex items-center justify-center overflow-hidden">
+      <SplashCursor />
       <div className="loader-content flex flex-col items-center">
         {/* Logo or Brand */}
         <div className="loader-text mb-6 text-4xl md:text-5xl lg:text-6xl font-bold text-[#f5f5f5]">
